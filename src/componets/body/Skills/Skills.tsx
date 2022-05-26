@@ -5,9 +5,14 @@ import {Skill} from "./Skill";
 
 export const Skills = () => {
     return (
-        <div className={style.skills}>
-            <div className={containerStyle.container}>
-                <Skill />
+        <div className={style.skillsBlock}>
+            <div className= {`${containerStyle.container} ${style.skillsContainer}`} >
+                <h2 className={style.title}>SKILLS</h2>
+                <div className={style.skills}>
+                    <Skill />
+                    <Skill />
+                    <Skill />
+                </div>
             </div>
         </div>
     )
