@@ -1,13 +1,13 @@
 import React from "react";
-import style from './Header.module.css'
-import {GreetingBlock} from "./GreetingBlock/GreetingBlock";
+import style from './Body.module.css'
+import {Greeting} from "./Greeting/Greeting";
 import {Skills} from "./Skills/Skills";
 
 
 export const Body = () => {
     return (
         <div className={style.body}>
-            <GreetingBlock/>
+            <Greeting/>
             <Skills/>
         </div>
     )
