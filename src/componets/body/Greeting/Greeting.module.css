@@ -1,4 +1,15 @@
 .greeting {
-    min-height: 100vh;
+    height: 100vh;
     background-color: #be5252;
+}
+
+.text {
+    width: 300px;
+    background-color: #a9a9c4;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: red;
 }
