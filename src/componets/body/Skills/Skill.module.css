@@ -1,11 +1,20 @@
 .skill {
+    display: flex;
     width: 250px;
     background-color: #be5252;
-
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
 
 }
 .item {
     width: 60px;
     height: 60px;
     background-color: green;
+}
+.title {
+
+}
+.description {
+    text-align: center;
 }

@@ -11,6 +11,10 @@ export const Skill = () => {
                 wefwfwfewfwef wef wef wf we wef w
                  wef wfe wfe wef wgtrbtr
                  g greg ergregertrtblme;kjnkremlk
+                dfvdfvdfv
+                vdfvdfvdfv
+                dfvdfvdfv
+                dfvdfv
             </span>
         </div>
     )
