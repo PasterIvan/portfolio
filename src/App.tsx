@@ -1,20 +1,17 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import {Body} from './componets/body/Body';
 import {Header} from './componets/header/Header';
-import {v1} from "uuid";
-
+import {Footer} from "./componets/footer/Footer";
 
 
 function App() {
-
-
-
 
     return (
         <div className="App">
             <Header/>
             <Body/>
+            <Footer/>
         </div>
     );
 }
