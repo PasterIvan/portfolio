@@ -4,16 +4,19 @@
     background-color: #be5252;
     align-items: center;
     flex-direction: column;
-margin: 10px;
+    margin: 10px;
 }
+
 .item {
     width: 60px;
     height: 60px;
     background-color: green;
 }
+
 .title {
 
 }
+
 .description {
     width: 100%;
     text-align: center;

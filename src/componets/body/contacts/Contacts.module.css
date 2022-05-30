@@ -9,13 +9,13 @@
 .title {
 
 }
-.contacts {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+
 .form {
     border: 1px solid;
+    width: 50%;
+    padding: 7px;
+}
+.form input, textarea{
+    width: 100%;
+    margin: 2px;
 }
