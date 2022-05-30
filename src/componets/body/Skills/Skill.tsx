@@ -1,20 +1,20 @@
 import React from "react";
 import style from './Skill.module.css'
 
+type PropsType =  {
+    id: string
+    img: string
+    title: string
+    description: string
+}
 
-export const Skill = () => {
+export const Skill = (props: PropsType) => {
     return (
         <div className={style.skill}>
             <div className={style.item}></div>
-            <h3 className={style.title}>REACT</h3>
+            <h3 className={style.title}>{props.title}</h3>
             <span className={style.description}>
-                wefwfwfewfwef wef wef wf we wef w
-                 wef wfe wfe wef wgtrbtr
-                 g greg ergregertrtblme;kjnkremlk
-                dfvdfvdfv
-                vdfvdfvdfv
-                dfvdfvdfv
-                dfvdfv
+                {props.description}
             </span>
         </div>
     )

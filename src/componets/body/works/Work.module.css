@@ -1,0 +1,27 @@
+.work {
+    display: flex;
+    background-color: #be5252;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.item {
+    width: 50%;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.title {
+
+}
+.description {
+
+}

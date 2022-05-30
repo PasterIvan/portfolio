@@ -1,3 +1,7 @@
+.worksBlock {
+    min-height: 100vh;
+    background-color: #e7af62;
+}
 .worksContainer {
     align-items: center;
     flex-direction: column;
