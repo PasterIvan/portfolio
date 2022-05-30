@@ -1,27 +1,39 @@
 .work {
+    width: 100%;
     display: flex;
     background-color: #be5252;
     align-items: center;
-    justify-content: flex-start;
-
+    margin: 10px;
 }
+.workLeft {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #be5252;
+    align-items: center;
+    margin: 10px;
+}
+
 .item {
-    width: 50%;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.text{
+
+.text {
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
+}
 
 .title {
 
 }
+
 .description {
 
 }

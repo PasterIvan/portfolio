@@ -6,11 +6,14 @@ type PropsType =  {
     img: string
     title: string
     description: string
+    location: boolean
 }
 
 export const Work = (props: PropsType) => {
+
+let styleWork = props.location ? style.workLeft : style.work
     return (
-        <div className={style.work}>
+        <div className={styleWork}>
             <div className={style.item}>
                 <button>view</button>
             </div>

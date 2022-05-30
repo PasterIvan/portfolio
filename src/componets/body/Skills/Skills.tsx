@@ -36,6 +36,12 @@ export const Skills = () => {
                 description: 'sdbfdasdaffdb kjnsdv n wne wen wenf wefn wef ' +
                     'weofnoweinf iweonf;o efn ' +
                     ' wneo oweifqwdqwdq wdqwdqwdqwdnoin'
+            },
+        {
+                id: v1(), img: "", title: "TS",
+                description: 'sdbfdasdaffdb kjnsdv n wne wen wenf wefn wef ' +
+                    'weofnoweinf iweonf;o efn ' +
+                    ' wneo oweifqwdqwdq wdqwdqwdqwdnoin'
             }
         ]
     );

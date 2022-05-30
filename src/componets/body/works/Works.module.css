@@ -3,10 +3,16 @@
     background-color: #e7af62;
 }
 .worksContainer {
-    align-items: center;
     flex-direction: column;
     justify-content: flex-start;
 }
 .title {
 
+}
+.works {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

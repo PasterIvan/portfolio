@@ -9,6 +9,7 @@ export type WorkType = {
     img: string
     title: string
     description: string
+    location: boolean
 }
 
 export const Works = () => {
@@ -18,26 +19,30 @@ export const Works = () => {
                 id: v1(), img: "", title: "Samurai",
                 description: 'sdbfdasdaffdb kjnsdv n wne wen wenf wefn wef ' +
                     'weofnoweinf iweonf;o efn ' +
-                    ' wneo oweifnoinbfngmhnbvcsdvw' +
-                    'wefw'
+                    ' wneo oweifn oinbf ngmhnbv csdvw' +
+                    'wefw',
+                location: false
             },
             {
                 id: v1(), img: "", title: "TodoList",
                 description: 'sdbfdasdaffdb kjnsdv n wne wen wenf wefn wef ' +
-                    'weofnoweinf iweqwdqwdqwdqwdqwdonf;o efn ' +
-                    ' wneo oweifnoin'
+                    'weofnoweinf iweq wdqwdq wdqw dqwdonf;o efn ' +
+                    ' wneo oweifnoin',
+                location: true
             },
         {
                 id: v1(), img: "", title: "Portfolio",
                 description: 'sdbfdasdaffdb kjnsdv n wne wen wenf wefn wef ' +
-                    'weofnoweinf iweqwdqwdqwdqwdqwdonf;o efn ' +
-                    ' wneo oweifnoin'
+                    'weofnoweinf iweqw dqwd qwdqwdqw donf;o efn ' +
+                    ' wneo oweifnoin',
+            location: false
             },
         {
                 id: v1(), img: "", title: "CodeWars",
                 description: 'sdbfdasdaffdb kjnsdv n wne wen wenf wefn wef ' +
-                    'weofnoweinf iweqwdqwdqwdqwdqwdonf;o efn ' +
-                    ' wneo oweifnoin'
+                    'weofnoweinf iweqwd qwdqw dqwdqwdonf;o efn ' +
+                    ' wneo oweifnoin',
+            location: true
             }
         ]
     );
@@ -53,6 +58,7 @@ export const Works = () => {
                             img={w.img}
                             title={w.title}
                             description={w.description}
+                            location={w.location}
                         />
                     })}
                 </div>
