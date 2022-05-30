@@ -9,3 +9,16 @@
     flex-direction: column;
     justify-content: flex-start;
 }
+.icons {
+    width: 280px;
+    height: 50px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons div {
+    height: 50px;
+    width: 50px;
+    background-color: #1f3b06;
+}
