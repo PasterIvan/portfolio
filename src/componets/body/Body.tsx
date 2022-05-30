@@ -1,8 +1,9 @@
 import React from "react";
 import style from './Body.module.css'
-import {Greeting} from "./Greeting/Greeting";
-import {Skills} from "./Skills/Skills";
+import {Greeting} from "./greeting/Greeting";
+import {Skills} from "./skills/Skills";
 import {Works} from "./works/Works";
+import {Contacts} from "./contacts/Contacts";
 
 
 export const Body = () => {
@@ -11,6 +12,7 @@ export const Body = () => {
             <Greeting/>
             <Skills/>
             <Works/>
+            <Contacts/>
         </div>
     )
 }
