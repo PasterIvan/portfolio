@@ -1,4 +1,4 @@
-.work {
+.work:nth-child(odd) {
     width: 100%;
     background-color: #be5252;
     display: flex;
@@ -6,7 +6,7 @@
     justify-content:  space-evenly;
     margin: 10px;
 }
-.workLeft {
+.work:nth-child(even) {
     width: 100%;
     background-color: #be5252;
     display: flex;
@@ -20,10 +20,16 @@
     border: 1px solid;
     width: 250px;
     height: 250px;
-    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.item img {
+    height: 100%;
+
+}
+.item button{
+    z-index: +1;
 }
 
 .text {

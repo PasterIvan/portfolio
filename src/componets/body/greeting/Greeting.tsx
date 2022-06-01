@@ -5,7 +5,7 @@ import containerStyle from './../../../common/styles/Container.module.css'
 export const Greeting = () => {
     return (
         <div className={style.greeting}>
-            <div className={containerStyle.container}>
+            <div className={`${containerStyle.container} ${style.greetingContainer}`}>
                 <div className={style.text}>
                     <span>Hi there</span>
                     <h1>I am Ivan</h1>

@@ -2,6 +2,10 @@
     height: 100vh;
     background-color: #be5252;
 }
+.greetingContainer {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 .text {
     width: 300px;

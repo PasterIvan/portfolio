@@ -13,7 +13,7 @@ export type SkillType = {
 
 export const Skills = () => {
 
-    let [skills, setSkills] = useState<Array<SkillType>>([
+    let skills = [
             {
                 id: v1(), img: "", title: "JS",
                 description: 'sdbfdasdaffdb kjnsdv n wne wen wenf wefn wef ' +
@@ -43,8 +43,7 @@ export const Skills = () => {
                     'weofnoweinf iweonf;o efn ' +
                     ' wneo oweifqwdqwdq wdqwdqwdqwdnoin'
             }
-        ]
-    );
+        ];
 
     return (
         <div className={style.skillsBlock}>
