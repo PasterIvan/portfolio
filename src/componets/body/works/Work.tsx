@@ -7,12 +7,21 @@ type PropsType =  {
     description: string
 }
 
+const size ={
+    mobile: '360px',
+    pc: '800px'
+}
+export const device = {
+    mobile: `(min-width: ${size.mobile})`,
+    pc: `(min-width: ${size.pc})`
+}
+
 export const Work = (props: PropsType) => {
 
     return (
         <div className={style.work}>
             <div className={style.item} >
-                <img src={props.img} alt=""/>
+
                 <button>view</button>
             </div>
             <div className={style.text}>
